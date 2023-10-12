@@ -23,7 +23,7 @@ const LoginPage: React.FC<LoginPageProps> = ({}) => {
     password: '',
   });
 
-  const onSubmit = (data: LoginInput) => {
+  const onSubmit = (_: LoginInput) => {
     // do backend api call
     login(dummyUser, 'token');
     navigate('/');
