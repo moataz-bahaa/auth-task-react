@@ -1,0 +1,16 @@
+n 2020 (for maildroppa), I learned React in 4 weeks on my own. In the end - I developed a little component for login by using a useReducer hook.
+So as a little demo of your coding skills, I would ask you to also write me something similar. Make a small prototype of an app with authentication and a private page.
+No API connections or fancy styles needed.
+There should be login/logout buttons. Auth state is managed by Context API, which uses reducer hook, auth token in place.
+
+
+
+- App should consist of 2 routes.
+
+- One route is public with the login form. Use any credentials for login.
+
+
+- The second route is private with random text like “Hi Marcus’
+
+
+- Persist auth state (don't drop auth state on page refresh)
